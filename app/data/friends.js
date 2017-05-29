@@ -1,20 +1,19 @@
-var friends = [
-	{
-		name: 'Donald Trump',
-		photo: 'http://theresurgent.com/wp-content/uploads/2016/02/nbc-fires-donald-trump-after-he-calls-mexicans-rapists-and-drug-runners-1.jpg',
-		scores: [1, 5, 1, 1, 5, 5, 5, 1, 5, 5]
-	},{
-		name: 'Alex Morgan',
-		photo: 'http://www.famousbirthdays.com/headshots/alex-morgan-3.jpg',
-		scores: [4, 1, 4, 5, 1, 1, 1, 5, 1, 1]
-	},{
-		name: 'Phil Dunphy',
-		photo: 'https://cdn.pastemagazine.com/www/blogs/lists/2012/07/20/phil-dunphy.jpg',
-		scores: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
-	},{
-		name: 'Natalie Coughlin',
-		photo: 'http://img.mindbodygreen.com/image/upload/c_limit,w_738,f_auto/ftr/natalie-olympics.jpg',
-		scores: [5, 1, 5, 2, 1, 1, 1, 5, 1, 1]
-	}];
+var friends = [{
+    name: 'Darth Vader',
+    photo: 'https://lumiere-a.akamaihd.net/v1/images/Darth-Vader_6bda9114.jpeg?region=0%2C23%2C1400%2C785&width=768',
+    scores: [5, 4, 1, 1, 5, 3, 1, 1, 5, 5]
+}, {
+    name: 'Obi-Wan Kenobi',
+    photo: 'https://vignette2.wikia.nocookie.net/starwars/images/d/df/Masterobiwan.jpg/revision/latest/scale-to-width-down/220?cb=20080719000305',
+    scores: [1, 5, 1, 1, 1, 5, 5, 5, 4, 1]
+}, {
+    name: 'Luke Skywalker',
+    photo: 'https://vignette1.wikia.nocookie.net/starwars/images/d/d9/Luke-rotjpromo.jpg/revision/latest/scale-to-width-down/350?cb=20091030151422',
+    scores: [4, 1, 5, 1, 4, 4, 2, 5, 5, 3]
+}, {
+    name: 'Leia Organa',
+    photo: 'https://vignette2.wikia.nocookie.net/starwars/images/3/30/LeiaOrganaTFA.png/revision/latest/scale-to-width-down/500?cb=20151225164732',
+    scores: [1, 2, 4, 5, 1, 1, 2, 5, 5, 1]
+}];
 
 module.exports = friends;
